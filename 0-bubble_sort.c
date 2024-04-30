@@ -7,13 +7,13 @@
  * @b: pntr t the sec value
  */
 
-void swap(int *a, int *c)
+void swap(int *a, int *b)
 {
 	int temp;
 
 	temp = *a;
-	*a = *c;
-	*c = temp;
+	*a = *b;
+	*b = temp;
 }
 
 /**
