@@ -7,11 +7,11 @@
  */
 
 
-void swap(int *a, int *c)
+void swap(int *a, int *b)
 {
 	int temp = *a;
-	*a = *c;
-	*c = temp;
+	*a = *b;
+	*b = temp;
 }
 
 /**
