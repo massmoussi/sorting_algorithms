@@ -1,13 +1,13 @@
 #include "sort.h"
 
 /**
- * partition - Lomuto parti scheme for Quick sort
- * @array: Array t be sorted
- * @low: Starting index of the parti to be sorted
- * @high: Ending index of the parti to be sorted
+ * partition - Lomuto partition scheme for Quick sort
+ * @array: Array to be sorted
+ * @low: Starting index of the partition to be sorted
+ * @high: Ending index of the partition to be sorted
  * @size: Size of the array
  *
- * Return: Index of the pivot element after sorting the parti
+ * Return: Index of the pivot element after sorting the partition
  */
 int partition(int *array, int low, int high, size_t size)
 {
@@ -43,7 +43,7 @@ int partition(int *array, int low, int high, size_t size)
 /**
  * quick_sort_recursive - Recursive function to implement Quick sort
  * @array: Array to be sorted
- * @low: Starting index of the partition to be sorted
+ * @low: Starting index of the partition t be sorted
  * @high: Ending index of the partition to be sorted
  * @size: Size of the array
  */
